@@ -1,29 +1,21 @@
 🤖 AI Resume Evaluator Agent
-
 Autonomous AI System for Resume Screening & Evaluation
 
-An end-to-end AI-powered resume evaluation system that analyzes resumes, scores candidates using a structured framework, and delivers professionally formatted HTML evaluation reports via Email and Telegram.
-
-This is not a chatbot.
-It is a multi-step autonomous AI agent designed to perform a real-world hiring task.
+An end-to-end AI-powered system that evaluates resumes, scores candidates using a structured framework, and delivers recruiter-ready HTML reports via Email and Telegram.
 
 ❓ Why This Project Exists
 
-Most resume screening tools are black boxes:
+Most resume screening tools operate as black boxes:
 
-No clarity on how candidates are judged
+No transparency in evaluation
 
-No structured decision logic
+No visible decision logic
 
-No transparency in scoring
+No structured scoring
 
-Instead of trusting opaque tools, this project was built to answer a simple question:
+This project was built to expose the logic behind resume evaluation by designing a real autonomous AI agent instead of relying on opaque tools.
 
-“What actually happens when a resume is evaluated?”
-
-This system exposes the logic, structure, and workflow behind resume screening.
-
-🚀 What the System Does
+🚀 What This System Does
 
 📄 Accepts resumes via Google Docs
 
@@ -31,29 +23,29 @@ This system exposes the logic, structure, and workflow behind resume screening.
 
 📊 Scores candidates using a defined competency framework
 
-✉️ Generates HTML-based professional evaluation reports
+✉️ Generates professionally formatted HTML reports
 
 📬 Sends results via Gmail
 
 💬 Interacts with users through a Telegram Bot
 
-⚙️ Orchestrated using Make.com automation + MCP
+⚙️ Orchestrated using Make.com + MCP
 
 🧠 Why This Project Matters
 
-This project focuses on real AI system design, not prompt tricks.
+This is system-level AI engineering, not prompt engineering.
 
-Key highlights:
+It demonstrates:
 
 🔍 Transparent evaluation logic
 
 🧱 Structured decision-making
 
-🤖 Autonomous agent behavior
+🤖 Autonomous agent execution
 
-🧩 End-to-end workflow orchestration
+🧩 End-to-end workflow automation
 
-✨ Real-world HTML email formatting (used in actual hiring pipelines)
+✨ Real-world HTML email formatting
 
 🏗️ System Architecture
 User
@@ -82,15 +74,15 @@ Total	100
 
 ❌ < 50 → Reject
 
-This logic is explicit, consistent, and auditable.
+This logic is explicit and auditable.
 
-✉️ Output Report (HTML Email)
+✉️ Output: HTML Evaluation Report
 
-Each evaluation generates a recruiter-ready HTML report, including:
+Each evaluation generates a recruiter-ready HTML email containing:
 
-Candidate details
+Candidate information
 
-Objective evaluation remarks
+Objective remarks
 
 Strengths and gaps
 
@@ -98,16 +90,15 @@ Score breakdown
 
 Final verdict
 
-❗ No plain-text output.
-This mirrors real business workflows, not toy demos.
+❗ No plain-text output — this mirrors real hiring workflows.
 
 🧰 Tech Stack
-Layer	Tools Used
+Layer	Tools
 🤖 AI	GPT-based Agent
 ⚙️ Automation	Make.com
 💬 Messaging	Telegram Bot
-✉️ Email	Gmail (HTML emails)
-📄 Documents	Google Docs
+✉️ Email	Gmail (HTML)
+📄 Docs	Google Docs
 🔌 Protocol	MCP
 📁 Repository Structure
 ai-resume-evaluator/
@@ -121,17 +112,15 @@ ai-resume-evaluator/
 
 🔒 No API keys committed
 
-🔒 Credentials handled inside Make.com / MCP
+🔒 Credentials handled inside Make / MCP
 
-🔒 Repository contains only prompts and templates
+🔒 Repository contains only prompts & templates
 
-Safe by design.
+📈 Future Enhancements
 
-📈 Planned Improvements
+📎 PDF resume upload
 
-📎 PDF resume upload support
-
-🎯 Multi-role evaluation (SDE, Data, Product, etc.)
+🎯 Multi-role evaluation
 
 🔍 ATS keyword matching
 
@@ -141,17 +130,12 @@ Safe by design.
 
 🙌 Final Note
 
-This project demonstrates system-level AI engineering:
+This project reflects real-world AI system design:
 
-Agent design
+Agent orchestration
 
-Workflow automation
-
-Tool orchestration
+Automation pipelines
 
 Practical hiring use case
 
-If you’re reviewing this repository —
-thank you for taking the time.
-
-⭐ Star the repo if you found it useful.
+⭐ Star the repository if you found it useful.
