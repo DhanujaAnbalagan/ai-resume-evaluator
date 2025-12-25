@@ -1,22 +1,24 @@
 🤖 AI Resume Evaluator Agent
 
-An AI-powered Resume Evaluation System that analyzes resumes, scores candidates across defined competency areas, and delivers professional HTML evaluation reports automatically via email and Telegram.
+An AI-powered Resume Evaluation System that analyzes resumes, scores candidates across defined competency areas, and delivers professional HTML evaluation reports automatically via Email and Telegram.
 
 This project was built to answer a simple but powerful question:
 
 “How does my resume actually look when it’s evaluated?”
 
-Instead of using existing resume checkers, I built one from scratch.
+Instead of relying on existing resume checkers, I decided to build one from scratch.
 
 🚀 Project Overview
 
-The AI Resume Evaluator Agent simulates a real-world resume screening workflow used in hiring:
+The AI Resume Evaluator Agent simulates a real-world resume screening workflow used in hiring.
+
+What it does:
 
 Accepts resumes via Google Docs
 
 Evaluates them using an AI Agent
 
-Scores candidates using a structured framework
+Scores candidates using a structured evaluation framework
 
 Generates professionally formatted HTML reports
 
@@ -31,61 +33,34 @@ This is not just a chatbot — it is a multi-step autonomous AI agent designed t
 🧠 Why This Project Matters
 
 Most resume tools are black boxes.
+
 This project focuses on transparency, structure, and system design, showcasing:
 
 How AI agents reason and follow workflows
 
-How hiring evaluation logic can be standardized
+How resume evaluation logic can be standardized
 
 How automation replaces repetitive manual screening
 
-How proper formatting (HTML vs plain text) impacts usability
+Why proper formatting (HTML vs plain text) matters in real systems
 
 🏗️ System Architecture
-
-User → Telegram Bot → AI Agent → Resume Evaluation → Email Report
+User → Telegram Bot → AI Agent → Resume Evaluation → HTML Email Report
 
 Key Components:
 
-Telegram Bot
+Telegram Bot – User interaction
 
-Entry point for user interaction
+AI Resume Evaluator Agent – Resume analysis & scoring
 
-Accepts greetings, resume links, and requests
+Google Docs – Resume source
 
-AI Resume Evaluator Agent
+HTML Email Generator – Professional report rendering
 
-Controlled via strict system prompts
-
-Follows a fixed evaluation framework
-
-No free-form responses (deterministic behavior)
-
-Google Docs Integration
-
-Fetches resume content from shared Google Docs links
-
-HTML Email Generator
-
-Produces clean, professional evaluation reports
-
-Ensures proper rendering in Gmail / Outlook
-
-Make.com Automation
-
-Orchestrates the entire workflow
-
-Handles triggers, tool calls, and data routing
-
-MCP (Model Context Protocol)
-
-Unified access to external tools
-
-Cleaner, scalable integration architecture
 
 📊 Evaluation Framework
 
-Each resume is scored out of 100 points:
+Each resume is evaluated on a 100-point scale:
 
 Competency Area	Max Score
 Relevant Technical Experience	30
@@ -100,25 +75,25 @@ Decision Logic
 
 < 50 → Do Not Move Forward
 
-✉️ Output Example
+✉️ Output
 
-The system generates a professional HTML email report that includes:
+The system generates a professional HTML email report containing:
 
 Candidate information
 
 Objective remarks
 
-Strengths and gaps
+Strengths & gaps
 
-Detailed score breakdown
+Score breakdown
 
 Final verdict
 
-📌 Unlike plain-text emails, the report is fully styled and recruiter-ready.
+Emails are fully styled HTML, not plain text.
 
 🧰 Tech Stack
 
-AI Agent: GPT-based model
+AI Model: GPT-based agent
 
 Automation: Make.com
 
@@ -130,13 +105,22 @@ Documents: Google Docs
 
 Protocol: MCP (Model Context Protocol)
 
-Frontend (Output): HTML Email Templates
+Output: HTML Email Templates
+
+📁 Repository Only Folder Structure
+ai-resume-evaluator/
+│
+├── agent-prompts/
+├── email-templates/
+├── screenshots/
+├── README.md
+└── LICENSE
 
 🔐 Security Notes
 
 No API keys or secrets are included
 
-All credentials are managed securely within Make / MCP
+All credentials are managed securely via Make / MCP
 
 Repository contains only configuration, prompts, and templates
 
@@ -150,27 +134,15 @@ ATS keyword matching
 
 Resume improvement suggestions
 
-PDF export of evaluation reports
+PDF export of reports
 
-Dashboard for recruiters
-
-🎯 Who This Project Is For
-
-Engineers learning AI Agents
-
-Automation & no-code enthusiasts
-
-Students curious about real hiring workflows
-
-Recruiters exploring AI-assisted screening
-
-Anyone interested in AI + systems design
+Recruiter dashboard
 
 🙌 Final Note
 
-This project represents my learning journey into:
+This project represents my hands-on learning in:
 
-AI agents
+AI Agents
 
 Workflow automation
 
@@ -178,5 +150,11 @@ System prompts
 
 Real-world AI applications
 
-If you’re reviewing this repo 
+If you’re reviewing this repository —
 thank you for taking the time to explore it.
+
+⭐ Feel free to star the repo or share feedback.
+
+Make.com – Workflow orchestration
+
+MCP (Model Context Protocol) – Unified tool access
