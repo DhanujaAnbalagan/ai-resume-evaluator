@@ -1,0 +1,76 @@
+&lt;div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;"&gt;
+    &lt;div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 20px;"&gt;
+        &lt;h2 style="color: #2c3e50; margin-top: 0;"&gt;Resume Evaluation Report - Content Lead Position&lt;/h2&gt;
+        &lt;p&gt;Dear [candidate_name],&lt;/p&gt;
+        &lt;p&gt;Thank you for submitting your resume for the Content Lead role. We have evaluated your resume based on our four core competency areas.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div style="margin-bottom: 25px;"&gt;
+        &lt;h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;"&gt;Candidate Information&lt;/h3&gt;
+        &lt;div style="background-color: #f8f9fa; padding: 10px; margin: 5px 0; border-left: 4px solid #3498db;"&gt;
+            &lt;strong&gt;Name:&lt;/strong&gt; [candidate_name]&lt;br&gt;
+            &lt;strong&gt;Email:&lt;/strong&gt; [candidate_email]&lt;br&gt;
+            &lt;strong&gt;Role Specialization:&lt;/strong&gt; [role_specialization]
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div style="margin-bottom: 25px;"&gt;
+        &lt;h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;"&gt;Evaluation Scores&lt;/h3&gt;
+        
+        &lt;div style="background-color: #f8f9fa; padding: 10px; margin: 5px 0; border-left: 4px solid #3498db;"&gt;
+            &lt;strong&gt;Relevant Tech Experience: [tech_score]/30&lt;/strong&gt;
+            &lt;div style="font-style: italic; color: #666; margin-top: 5px; font-size: 14px;"&gt;Evidence: [tech_evidence]&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div style="background-color: #f8f9fa; padding: 10px; margin: 5px 0; border-left: 4px solid #3498db;"&gt;
+            &lt;strong&gt;Content Curation Experience: [content_score]/30&lt;/strong&gt;
+            &lt;div style="font-style: italic; color: #666; margin-top: 5px; font-size: 14px;"&gt;Evidence: [content_evidence]&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div style="background-color: #f8f9fa; padding: 10px; margin: 5px 0; border-left: 4px solid #3498db;"&gt;
+            &lt;strong&gt;Project Building: [project_score]/20&lt;/strong&gt;
+            &lt;div style="font-style: italic; color: #666; margin-top: 5px; font-size: 14px;"&gt;Evidence: [project_evidence]&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div style="background-color: #f8f9fa; padding: 10px; margin: 5px 0; border-left: 4px solid #3498db;"&gt;
+            &lt;strong&gt;Team Leading Experience: [team_score]/20&lt;/strong&gt;
+            &lt;div style="font-style: italic; color: #666; margin-top: 5px; font-size: 14px;"&gt;Evidence: [team_evidence]&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div style="background-color: #e8f5e9; padding: 15px; border: 2px solid #4caf50; border-radius: 5px; text-align: center; margin-top: 15px;"&gt;
+            &lt;strong style="font-size: 18px;"&gt;Total Score: [total_score]/100&lt;/strong&gt;&lt;br&gt;
+            &lt;strong style="font-size: 18px; color: #4caf50;"&gt;Recommendation: [recommendation]&lt;/strong&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div style="margin-bottom: 25px;"&gt;
+        &lt;h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;"&gt;Objective Remarks&lt;/h3&gt;
+        &lt;p&gt;[objective_remarks]&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div style="margin-bottom: 25px;"&gt;
+        &lt;h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;"&gt;Top 3 Strengths&lt;/h3&gt;
+        &lt;div style="margin: 8px 0; padding-left: 10px;"&gt;• [strength1]&lt;/div&gt;
+        &lt;div style="margin: 8px 0; padding-left: 10px;"&gt;• [strength2]&lt;/div&gt;
+        &lt;div style="margin: 8px 0; padding-left: 10px;"&gt;• [strength3]&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div style="margin-bottom: 25px;"&gt;
+        &lt;h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;"&gt;Key Gaps / Concerns&lt;/h3&gt;
+        &lt;div style="margin: 8px 0; padding-left: 10px;"&gt;• [gap1]&lt;/div&gt;
+        &lt;div style="margin: 8px 0; padding-left: 10px;"&gt;• [gap2]&lt;/div&gt;
+        &lt;div style="margin: 8px 0; padding-left: 10px;"&gt;• [gap3]&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div style="margin-bottom: 25px;"&gt;
+        &lt;h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;"&gt;Missing / Unclear Information&lt;/h3&gt;
+        &lt;div style="margin: 8px 0; padding-left: 10px;"&gt;• [missing1]&lt;/div&gt;
+        &lt;div style="margin: 8px 0; padding-left: 10px;"&gt;• [missing2]&lt;/div&gt;
+        &lt;div style="margin: 8px 0; padding-left: 10px;"&gt;• [missing3]&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; text-align: center; margin-top: 30px;"&gt;
+        &lt;p&gt;We appreciate your interest in joining our team. If you have any questions about this evaluation, please feel free to reach out.&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;Best regards,&lt;br&gt;NxtWave EdTech Hiring Team&lt;/strong&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
